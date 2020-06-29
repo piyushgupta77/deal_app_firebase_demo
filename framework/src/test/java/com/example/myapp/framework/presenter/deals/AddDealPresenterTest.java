@@ -54,7 +54,6 @@ public class AddDealPresenterTest {
 
     @Test
     public void testDealAddition_Failure() {
-        String addedDealGeneratedId = "ahd2133";
         String merchantId = "123";
         Mockito.when(mDeal.getMerchantId()).thenReturn(merchantId);
         Mockito.when(mAddDealUseCase.execute(Constants.COLLECTION_CONSTANTS.DEALS, mDeal))
