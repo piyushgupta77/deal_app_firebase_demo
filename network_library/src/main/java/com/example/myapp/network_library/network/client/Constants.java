@@ -3,15 +3,9 @@ package com.example.myapp.network_library.network.client;
 public interface Constants {
     String MERCHANT_DOMAIN_ADDRESS = "nagarro.com";
     String RANDOM_IMAGE_URL = "https://picsum.photos/600/400/?random";
-    boolean IS_TESTING = true;
     String BASE_URL = "localhost";
     String CATEGORY = "category";
     String MERCHANT_ID = "merchant_id";
-
-    interface TESTING_DATA {
-        String userEmail = "piyush.gupta01@nagarro.com";
-        String password = "password";
-    }
 
     interface COLLECTION_CONSTANTS {
         String CATEGORIES = "categories";
