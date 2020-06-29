@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "763786298464",
+    "firebase_url": "https://deal-app-47578.firebaseio.com",
+    "project_id": "deal-app-47578",
+    "storage_bucket": "deal-app-47578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763786298464:android:fec360608594cbfa",
+        "android_client_info": {
+          "package_name": "com.mycompany.dealapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763786298464-6sh3dopm3rre4dc6j67cf43dilk1sgdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD66fonHh4GS1ikRrHn9XLP5uNDgqGpNZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

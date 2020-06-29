@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NearMeDeals.iml" filepath="$PROJECT_DIR$/NearMeDeals.iml" group="NearMeDeals" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="NearMeDeals/app" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" group="NearMeDeals/framework" />
+      <module fileurl="file://$PROJECT_DIR$/network_library/network_library.iml" filepath="$PROJECT_DIR$/network_library/network_library.iml" group="NearMeDeals/network_library" />
+    </modules>
+  </component>
+</project>

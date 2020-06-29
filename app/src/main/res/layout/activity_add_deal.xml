@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/dimen_20dp"
+    android:layout_marginStart="@dimen/dimen_20dp"
+    android:orientation="vertical"
+    tools:context="com.example.myapp.view.merchant.AddDealActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:hint="@string/category" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:hint="@string/code" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/code"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:hint="@string/deal_price"
+            android:inputType="number" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:hint="@string/summary" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:hint="@string/title" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/merchant_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:hint="@string/merchant_id" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:text="@string/submit" />
+    </LinearLayout>
+</RelativeLayout>

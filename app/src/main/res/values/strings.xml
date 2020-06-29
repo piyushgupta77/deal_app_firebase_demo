@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My deals</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="reenter_password">Re-enter password</string>
+    <string name="title_activity_deals">Deals</string>
+    <string name="submit">Submit</string>
+    <string name="verify_email">Re-send verification email</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="title_activity_deal_details">DealDetailsActivity</string>
+    <string name="price">Rs. %d</string>
+    <string name="title_activity_add_deal">Add new deals</string>
+    <string name="category">Category</string>
+    <string name="code">Deal code</string>
+    <string name="deal_price">Price</string>
+    <string name="summary">Summary</string>
+    <string name="title">Title</string>
+    <string name="merchant_id">Merchant id</string>
+    <string name="title_activity_merchant">My Deals</string>
+    <string name="add_deal">Add deal</string>
+</resources>
