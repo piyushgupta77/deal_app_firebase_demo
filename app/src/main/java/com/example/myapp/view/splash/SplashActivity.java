@@ -44,11 +44,6 @@ public class SplashActivity extends BaseActivity implements SplashView, View.OnC
 
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
-
-        if(Constants.IS_TESTING){
-            email.setText(Constants.TESTING_DATA.userEmail);
-            password.setText(Constants.TESTING_DATA.password);
-        }
     }
 
     private void setOnClickListener(View view) {
@@ -83,11 +78,7 @@ public class SplashActivity extends BaseActivity implements SplashView, View.OnC
     @Override
     public void showMerchantScreen() {
         Intent intent = new Intent(SplashActivity.this, MerchantDealsActivity.class);
-        if (Constants.IS_TESTING) {
-            intent.putExtra(Constants.BUNDLE_KEYS.MERCHANT_ID, "M3");
-        } else {
-            intent = new Intent(SplashActivity.this, AddDealActivity.class);
-        }
+        intent = new Intent(SplashActivity.this, AddDealActivity.class);
         startActivity(intent);
     }
 
