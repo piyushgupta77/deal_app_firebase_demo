@@ -22,7 +22,6 @@
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginTop="@dimen/dimen_70dp"
         android:hint="@string/email_address"
-        android:text="piyushgupta77@gmail.com"
         android:inputType="textEmailAddress" />
 
 
@@ -35,7 +34,6 @@
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginTop="@dimen/dimen_20dp"
         android:hint="@string/password"
-        android:text="password"
         android:inputType="textPassword" />
 
     <android.support.v7.widget.AppCompatEditText
@@ -46,7 +44,6 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginTop="@dimen/dimen_20dp"
-        android:text="password"
         android:hint="@string/reenter_password"
         android:inputType="textPassword" />
 
